@@ -1,0 +1,25 @@
+{
+  "name": "my-laravel-app",
+  "version": "1.0.0",
+  "description": "A Laravel web application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "dependencies": {
+    "axios": "^0.21",
+    "laravel-mix": "^6.0",
+    "vue": "^2.6"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0",
+    "sass": "^1.32",
+    "sass-loader": "^10.1"
+  },
+  "license": "MIT"
+}
